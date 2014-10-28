@@ -1,3 +1,3 @@
 apache2:
-  pkg.purged:
+  pkg.removed:
     - name: apache2
