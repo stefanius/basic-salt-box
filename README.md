@@ -10,9 +10,9 @@ as a service after the first provision isn't perfect either.
 After checking out the project, you CD into the project folder. After that you type in the terminal the 
 following commands after each other:
 
-vagrant up
-vagrant halt
-vagrat up
-vagrant provision
+* vagrant up
+* vagrant halt
+* vagrant up
+* vagrant provision
 
 In the mean time you have to add the IP adress into your hosts-file.
