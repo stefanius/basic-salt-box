@@ -17,4 +17,5 @@ sudo service nginx stop
 sudo service nginx status
 sudo service nginx start
 sudo service nginx status
+sudo service nginx reload
 exit 0
