@@ -27,7 +27,7 @@ Vagrant.configure("2") do |config|
       owner: "vagrant",
       group: "www-data",
       mount_options: ["dmode=775,fmode=664"]
-      
+
   ## Set your salt configs here
   config.vm.provision :salt do |salt|
 

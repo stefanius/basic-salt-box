@@ -1,0 +1,14 @@
+
+
+#Nieuwsberichten 2012
+rewrite ^/nieuws/1.html /nieuws/overvliegen-2012 permanent;
+rewrite ^/nieuws/4.html /nieuws/nieuwe-website-2012 permanent;
+
+#Nieuwsberichten 2013
+rewrite ^/nieuws/9.html /nieuws/playbackshow-2013 permanent;
+rewrite ^/nieuws/10.html /nieuws/huisvesting-2013 permanent;
+rewrite ^/nieuws/11.html /nieuws/grandioze-pleebeksjow-2013 permanent;
+
+#Nieuwsberichten
+rewrite ^/nieuws/39.html /nieuws/nl-doet-de-kampkistenklus-2014 permanent;
+
