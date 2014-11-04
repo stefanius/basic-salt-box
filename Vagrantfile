@@ -23,9 +23,11 @@ Vagrant.configure("2") do |config|
   ## For masterless, mount your file roots file root
   config.vm.synced_folder "salt/roots/", "/srv/"
 
-  config.vm.synced_folder "homedir/", "/home/vagrant/", :nfs => false,
+  config.vm.synced_folder "sites/", "/home/vagrant/sites/", :nfs => false,
       owner: "vagrant",
-      group: "vagrant"
+      group: "www-data",
+      mount_options: ["dmode=775,fmode=664"]
+      
   ## Set your salt configs here
   config.vm.provision :salt do |salt|
 
